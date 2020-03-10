@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    direction: rtl;
+
+}
+
+.navbar {
+    position: absolute;
+    background-color: #F5F5F5;
+    width: 85vw;
+    left: 0;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.nav-items {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2),
+        0 4px 10px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    width: 18vw;
+    height: 11vh;
+    border-radius: 5px;
+
+}
+
+.menu {
+    box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.2),
+        0 0px 12px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
+    background-color: #F5F5F5;
+    position: absolute;
+    width: 15vw;
+    height: 100vh;
+}
+
+.container {
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: #F5F5F5;
+    width: 85vw;
+    height: 85vh;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.biggerbox {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #6F69E4;
+    width: 55vw;
+    height: 45vh;
+    margin-right: 25px;
+    border-radius: 10px;
+
+}
+
+.biggerbox2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    width: 26vw;
+    height: 45vh;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+
+.downbox {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    width: 55vw;
+    height: 36vh;
+    position: static;
+    margin-right: 25px;
+    border-radius: 10px;
+}
+
+.downbox2 {
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    width: 26vw;
+    height: 36vh;
+    margin-right: 10px;
+    border-radius: 10px;
+}

@@ -1,3 +1,8 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/Shabnam.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +11,48 @@
 
 body {
     direction: rtl;
+    font-family: "myFirstFont";
+    font-size: 14px;
 
+}
+
+img {
+    width: 70%;
+}
+
+h4 {
+    margin-right: 15px;
+    margin-top: 10px;
+    color: #B5B5B5;
+    width: 50%;
+    height: 25%;
+}
+
+p {
+    margin-right: 15px;
+    margin-top: 3px;
+    color: #B5B5B5;
+    width: 50%;
+    height: 25%;
+    color: black;
+    font-size: 11px;
+
+}
+
+.prple {
+    color: #7D67E5;
+    display: flex;
+    flex-direction: row;
+}
+.red {
+    color: #ED4556;
+    display: flex;
+    flex-direction: row;
+}
+.green {
+    color: #24CE96;
+    display: flex;
+    flex-direction: row;
 }
 
 .navbar {
@@ -22,12 +68,71 @@ body {
 }
 
 .nav-items {
+    position: relative;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2),
         0 4px 10px 0 rgba(0, 0, 0, 0.19);
     background-color: white;
     width: 18vw;
     height: 11vh;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nav-items-picture {
+    border-radius: 5px 0px 0px 5px;
+    background-color: #7B62E4;
+    position: absolute;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.nav-items-picture2 {
+    border-radius: 5px 0px 0px 5px;
+    background-color: #FDC439;
+    position: absolute;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.nav-items-picture3 {
+
+    border-radius: 5px 0px 0px 5px;
+    background-color: #F3467B;
+    position: absolute;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-items-picture4 {
+    border-radius: 5px 0px 0px 5px;
+    background-color: #26C1F7;
+    position: absolute;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 
 }
 

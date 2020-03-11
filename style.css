@@ -31,7 +31,6 @@ h4 {
 p {
     margin-right: 15px;
     margin-top: 3px;
-    color: #B5B5B5;
     width: 50%;
     height: 25%;
     color: black;
@@ -44,11 +43,13 @@ p {
     display: flex;
     flex-direction: row;
 }
+
 .red {
     color: #ED4556;
     display: flex;
     flex-direction: row;
 }
+
 .green {
     color: #24CE96;
     display: flex;

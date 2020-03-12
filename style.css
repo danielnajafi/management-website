@@ -158,27 +158,7 @@ p {
 
 
 
-.downbox {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
-        0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: white;
-    width: 55vw;
-    height: 36vh;
-    position: static;
-    margin-right: 25px;
-    border-radius: 10px;
-}
 
-.downbox2 {
-
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
-        0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: white;
-    width: 26vw;
-    height: 36vh;
-    margin-right: 10px;
-    border-radius: 10px;
-}
 
 /* right menu */
 
@@ -389,4 +369,73 @@ p {
     font-size: 16px;
     border-bottom: 2px solid #6257e4;
     margin-top: 5px;
+}
+
+/* downbox */
+.downbox {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    padding: 20px;
+    width: 55vw;
+    height: 36vh;
+    position: static;
+    margin-right: 25px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.downbox ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.downbox ul li {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.downbox ul li.active {
+    border-bottom: 2px solid #6257e4;
+    color: #4d4d4d;
+}
+
+.downbox ul li.active span {
+    color: #4d4d4d;
+}
+
+.downbox ul li span {
+    margin-right: 5px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding: 6px 2px;
+    color: #a8a7a7;
+    text-align: center;
+    background-color: #f0f0f0;
+    font-size: 12px;
+}
+
+/* downbobx2 */
+.downbox2 {
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    width: 26vw;
+    height: 36vh;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 5px 0 0 0;
+}
+
+.downbox2 p {
+    width: 22%;
+    height: 15%;
+    font-size: 16px;
+    border-bottom: 2px solid #6257e4;
 }
